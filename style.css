@@ -75,7 +75,7 @@ p{
     /* background-color: red; */
     box-sizing: border-box;
     margin-top: 2%;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 .text-div{
@@ -100,6 +100,7 @@ p{
     width: 50%;
     margin-left: 5%;
     margin-top:40px ;
+    overflow: hidden;
 }
 
 .text-div > h1{
@@ -112,4 +113,58 @@ p{
 
 .text-div > p > span{
     color: #f70a0a;
+}
+
+.Experience{
+    color: #912d2d;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.resume-button{
+    background-image: linear-gradient(tomato, cyan);
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 20px;
+    color: #fffafa;
+    font-size: bold;
+    /* text-shadow: #912d2d; */
+}
+
+/* this is last section and footer  */
+
+.experience-section{
+    display: flex;
+    
+    width: 100%;
+    min-height: 300px;
+    margin-left: 20px;
+}
+
+/* first box  */
+.first-sec{
+
+    width: 50%;
+    padding: 20px;
+}
+
+/* secodn box  */
+.second-sec{
+   
+    width: 50%;
+    margin-right: 20px 10px;
+    padding: 20px;
+}
+
+
+.date{
+    color: #000000;
+}
+
+/* footer section  */
+footer > p{
+    text-align: center;
+    justify-content: center;
+    padding: inherit;
+    color: red;
 }
