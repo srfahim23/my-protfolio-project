@@ -69,3 +69,17 @@ p{
    
 }
 
+.big-dream{
+    width: 100%;
+    background-color: red;
+    height: 100vh;
+    
+}
+
+.img-dream{
+    width: 50%;
+}
+
+.img-dream > img{
+    width: 100%;
+}
