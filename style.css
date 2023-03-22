@@ -69,17 +69,35 @@ p{
    
 }
 
-.big-dream{
+.main-section{
+    display: flex;
     width: 100%;
-    background-color: red;
-    height: 100vh;
-    
+    /* background-color: red; */
+    box-sizing: border-box;
+    margin-top: 2%;
+    margin-left: 5%;
 }
 
-.img-dream{
+.text-div{
     width: 50%;
+    /* background-color: green; */
 }
 
-.img-dream > img{
+.image-div{
+    width: 50%;
+    /* margin: 20px; */
+}
+
+.image-div > img{
     width: 100%;
+    margin-right:20px;
+    /* margin-right: 20px; */
+    padding: 20px;
+    /* border: 2px solid black; */
+}
+
+.text-div{
+    width: 50%;
+    margin-left: 5%;
+    margin-top:40px ;
 }
