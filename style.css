@@ -101,3 +101,15 @@ p{
     margin-left: 5%;
     margin-top:40px ;
 }
+
+.text-div > h1{
+    color: #912d2d;
+}
+
+.text-div > h2{
+    color: #000000;
+}
+
+.text-div > p > span{
+    color: #f70a0a;
+}
